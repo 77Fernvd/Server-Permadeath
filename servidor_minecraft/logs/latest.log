@@ -1,0 +1,123 @@
+[00:56:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:56:30] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[00:56:31] [Worker-Main-1/INFO]: Loaded 7 recipes
+[00:56:32] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[00:56:32] [Server thread/INFO]: Loading properties
+[00:56:32] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[00:56:32] [Server thread/INFO]: Debug logging is disabled
+[00:56:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:56:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:56:32] [Server thread/INFO]: Default game type: SURVIVAL
+[00:56:32] [Server thread/INFO]: Generating keypair
+[00:56:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:56:33] [Server thread/INFO]: Using epoll channel type
+[00:56:34] [Server thread/ERROR]: Could not load 'plugins/playercarry.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:361) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[00:56:34] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.4
+[00:56:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[00:56:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e8aaa4e]
+[00:56:35] [Server thread/INFO]: [PermaDeathCore] Loading PermaDeathCore v1.2
+[00:56:35] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_16_R3.CraftServer] null initializing PermaDeathCore v1.2 (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.permadeathcore.Main.onLoad(Main.java:138) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:399) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[00:56:35] [Server thread/INFO]: [Sit] Loading Sit v1.7.1
+[00:56:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:56:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[00:56:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:56:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:56:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[00:56:37] [Server thread/INFO]: [PermaDeathCore] Enabling PermaDeathCore v1.2
+[00:56:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:56:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:56:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:56:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:56:37] [Server thread/INFO]: Preparing level "world"
+[00:56:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:56:38] [Server thread/INFO]: Preparing spawn area: 0%
+[00:56:38] [Server thread/INFO]: Preparing spawn area: 0%
+[00:56:39] [Server thread/INFO]: Preparing spawn area: 1%
+[00:56:39] [Server thread/INFO]: Preparing spawn area: 1%
+[00:56:39] [Server thread/INFO]: Time elapsed: 1569 ms
+[00:56:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:56:40] [Server thread/INFO]: Time elapsed: 303 ms
+[00:56:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:56:40] [Server thread/INFO]: Time elapsed: 207 ms
+[00:56:40] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.4
+[00:56:40] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
+[00:56:40] [Server thread/WARN]: [voicechat] Vanish plugin support is disabled
+[00:56:40] [Server thread/WARN]: [voicechat] Failed to load vanish compatibility
+de.maxhenkel.voicechat.compatibility.CompatibilityReflectionException: Could not find any of the following classes: org.bukkit.event.player.PlayerHideEntityEvent
+	at de.maxhenkel.voicechat.compatibility.ReflectionUtils.getClazz(ReflectionUtils.java:169) ~[?:?]
+	at de.maxhenkel.voicechat.compatibility.BaseCompatibility.init(BaseCompatibility.java:48) ~[?:?]
+	at de.maxhenkel.voicechat.compatibility.BukkitCompatibilityManager.loadCompatibility(BukkitCompatibilityManager.java:78) ~[?:?]
+	at de.maxhenkel.voicechat.Voicechat.onEnable(Voicechat.java:59) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:518) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:432) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:599) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:298) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[00:56:40] [Server thread/INFO]: [voicechat] Compatibility version 20
+[00:56:40] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[00:56:40] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[00:56:40] [Server thread/INFO]: Running delayed init tasks
+[00:56:40] [Server thread/INFO]: PERMADEATHCORE ➤ No se ha encontrado JDASpigot, es necesario para utilizar el bot de Discord.
+[00:56:40] [Server thread/INFO]: Descarga aquí: https://www.dropbox.com/s/qdtqgfgv51lvag4/JDASpigot.jar?dl=0
+[00:56:40] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[00:56:40] [Server thread/INFO]: ------------------------------------------
+[00:56:40] [Server thread/INFO]:          PERMADEATHCORE
+[00:56:40] [Server thread/INFO]:      - Versión: 1.2
+[00:56:40] [Server thread/INFO]:      - Versión del Servidor: 1.16.x
+[00:56:40] [Server thread/INFO]: ------------------------------------------
+[00:56:40] [Server thread/INFO]:  >> INFORME DE ESTADO
+[00:56:40] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[00:56:40] [Server thread/INFO]:     > End: world_the_end
+[00:56:40] [Server thread/INFO]:     > Overworld: world
+[00:56:40] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[00:56:40] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[00:56:40] [Server thread/INFO]: > Cambios:
+[00:56:40] [Server thread/INFO]: >   Días: 1-60
+[00:56:41] [Server thread/INFO]: [voicechat] Loading plugins
+[00:56:41] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[00:56:41] [Server thread/INFO]: [voicechat] Initializing plugins
+[00:56:41] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[00:56:41] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[00:56:41] [Server thread/INFO]: Done (8.552s)! For help, type "help"
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.28
+[00:56:41] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'approved-court.gl.at.ply.gg'
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[00:56:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:56:41] [Server thread/INFO]: Timings Reset
+[00:56:41] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 9199
+[00:56:42] [Craft Scheduler Thread - 3/INFO]: > Estado de Actualización: Versión más reciente.
+[00:56:55] [Server thread/INFO]: La tormenta ha llegado a su fin.

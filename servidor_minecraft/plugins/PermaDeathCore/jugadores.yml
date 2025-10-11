@@ -1,0 +1,117 @@
+Players:
+  Fervzrv:
+    HP: 0
+    LastDay: 1
+    UUID: c26c0f81-66f9-3043-8e1c-43a3a1bae1bc
+  zmvrio777777:
+    HP: 0
+    LastDay: 1
+    UUID: d79c2ff1-079b-3ec7-a0c6-5eee3eb955be
+    banCause: Caída
+    banTime: '18:28:16'
+    banDay: '2025-10-05'
+    coords: 60 40 -108
+  SebastianFTW:
+    HP: 0
+    LastDay: 1
+    UUID: c66297b9-edef-3414-a8c5-8efbe14fe792
+    banCause: Lava
+    banTime: '18:58:45'
+    banDay: '2025-10-08'
+    coords: -1 15 -32
+  77Fernvd:
+    UUID: f9208ec2-f2be-3aa7-ba18-ca96e84fd2ad
+    HP: 0
+    banCause: Vacío
+    banTime: 03:06:04
+    banDay: '2025-10-05'
+    coords: 115 67 -232
+    LastDay: 1
+  shiinSama:
+    UUID: d6bb5392-2cff-3309-a87b-595a8f5ab861
+    HP: 0
+    banCause: Vacío
+    banTime: 03:06:04
+    banDay: '2025-10-05'
+    coords: 120 63 -236
+    LastDay: 1
+  fandejoji:
+    UUID: c1459b01-cbea-33a1-baa2-516204d60f78
+    HP: 0
+    banCause: Vacío
+    banTime: 03:06:04
+    banDay: '2025-10-05'
+    coords: 119 63 -239
+    LastDay: 1
+  thop:
+    UUID: 1eabc165-271d-3af2-8012-c92f69e30a3b
+    HP: 0
+    banCause: Mobs
+    banTime: 00:23:49
+    banDay: '2025-10-08'
+    coords: 1061 13 4100
+    LastDay: 1
+  mellajarkorito:
+    UUID: ace01c5c-b8e7-3f47-96d5-1c775b31e69d
+    HP: 0
+    banCause: Proyectil
+    banTime: 04:56:15
+    banDay: '2025-10-05'
+    coords: 256 31 -346
+    LastDay: 1
+  lqfu:
+    UUID: d8976f30-9a0e-396a-b55f-221c5a70f687
+    HP: 0
+    banCause: Mobs
+    banTime: 03:54:10
+    banDay: '2025-10-07'
+    coords: 1118 66 -887
+    LastDay: 1
+  edgaardoo:
+    UUID: f10405ca-fb59-3845-8141-724c73717a30
+    HP: 0
+    banCause: Mobs
+    banTime: 04:28:46
+    banDay: '2025-10-09'
+    coords: 1129 63 -902
+    LastDay: 1
+  Bobynas:
+    UUID: e43f7530-bc00-3c7f-be9f-3c5eb4afc5ea
+    HP: 0
+    banCause: Vacío
+    banTime: 03:06:04
+    banDay: '2025-10-05'
+    coords: 118 63 -239
+    LastDay: 1
+  WhereIs_Tubi:
+    UUID: db7f1aae-a3a5-3c8c-af3d-6a4c9f464f61
+    HP: 0
+    banCause: Mobs
+    banTime: 04:01:56
+    banDay: '2025-10-10'
+    coords: -241 67 -1455
+    LastDay: 1
+  terfuiu8hef:
+    UUID: 56f0b490-8468-3d37-ab6f-2e988d8feb63
+    HP: 0
+    banCause: Explosión
+    banTime: '21:01:57'
+    banDay: '2025-10-05'
+    coords: 126 63 -235
+    LastDay: 2
+  renax45:
+    UUID: 68390573-f17a-303c-bf9b-48ac32121fb6
+    HP: 0
+    banCause: Mobs
+    banTime: 02:59:09
+    banDay: '2025-10-09'
+    coords: 1111 65 4218
+    LastDay: 2
+  sadfgeegwregerg:
+    UUID: 1739cd13-ee9c-3f12-a306-afd0284bde3e
+    HP: 0
+    LastDay: 2
+  ANG:
+    UUID: 465d25f5-e453-30b5-8b2f-7252c6512983
+    HP: 0
+    LastDay: 11
